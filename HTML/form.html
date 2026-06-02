@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Student Registration</h1>
+    <form action="request.php" method="get">
+        <label for="name">Name</label>
+        <input type="text" name="stu_name" id="name">
+        <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="stu_email" id="email">
+        <br><br>
+        <label for="phone">Phone No.</label>
+        <input type="number" name="stu_phone" id="phone">
+        <br><br>
+        <label for="password">Password</label>
+        <input type="password" name="stu_password" id="password">
+        <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="stu_dob" id="dob">
+        <br><br>
+        <label for="passport">Passport</label>
+        <input type="file" accept=".png,.jpg" name="stu_passport" id="passport">
+        <br><br>
+         <label for="year">Years</label>
+         <select name="stu_year" id="year">
+            <option value="">Choose Your Academic Year</option>
+            <option value="1">First Year</option>
+            <option value="2">Second Year</option>
+            <option value="3">Third Year</option>
+         </select>
+         <br><br>
+         <label for="">Gender</label>
+         <br><br>
+         <input type="radio" name="gender" id="male" value="male"><label for="male">Male</label>
+         <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
+         <input type="radio" name="gender" id="other"><label for="other">Other</label>
+         <br><br>
+         <label for="">Hobby</label>
+         <br><br>
+         <input type="checkbox" name="reading" id="reading" value="reading"><label for="reading">Reading</label>
+         <input type="checkbox" name="sport" id="sport" value="sport"><label for="sport">Sports</label>
+         <input type="checkbox" name="music" id="music" value="music"><label for="music">Music</label>
+         <br><br>
+         <label for="address">Address</label>
+         <textarea name="stu_address" id="address" cols="35" rows="25"></textarea>
+         <br><br><br><br><br>
+         <input type="time" name="" id="">
+         <input type="range"  min="0" max="100" name="" id="">
+         <input type="color" name="" id="">
+         <input type="text" name="" id="" required><label for="">Read Only</label>
+         <input type="text" name=" city1" id="" value="Mandalay">
+         <input type="text" name="city2" id="" value="Nay Pyi Taw">
+         <input type="text" name="place" id="" placeholder="eg.09 123 456 678">
+         <br><br>
+          <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
