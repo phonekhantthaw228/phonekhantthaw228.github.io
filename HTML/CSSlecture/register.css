@@ -1,0 +1,68 @@
+body{
+    background-color: #c6e0e7;
+}
+
+h1 {
+    text-align: center;
+    color: #0066ff;
+}
+#myForm{
+    width:40%;
+    margin: auto;
+    background-color : #c6e0e7 ; 
+}
+
+
+input[type="text"],input[type="email"], input[type="number"]{
+    width: 80%;
+    height:20px;
+    outline: none;
+}
+input[type="text"]:focus , input[type="email"]:focus , input[type="number"]:focus {
+    letter-spacing: 3px;
+    border:10px solid #6bc6f4;
+}
+
+/* checked, enabled and disabled */
+input[ type="radio"]:checked + label {
+    color: #a51197;
+    letter-spacing:3px;
+    text-transform: uppercase;
+}
+input[ type="checkbox"]:enabled + label{
+    font-style: italic;
+    color: #ff0000;
+}
+input[type="checkbox"]:disbled + label{
+color: #00f621;
+letter-spacing:6px;
+text-transform: uppercase;
+}
+
+input[ type="checkbox"]:checked + label{
+    font-style: italic;
+    color: #d9f909;
+}
+
+ul li:first-child{
+    background-color: #d9f909;
+}
+
+
+ul li:nth-child(4){
+    background-color: #00f621;
+}
+
+p:empty{
+    background-color: antiquewhite;
+    width:160px;
+    height:20px;
+}
+.btn{
+    width:120px;
+    height:80px;
+}
+.btn:hover {
+    background-color: #a51197;
+    color: antiquewhite;
+}
