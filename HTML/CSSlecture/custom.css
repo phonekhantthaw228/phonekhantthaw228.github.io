@@ -1,0 +1,13 @@
+p{
+    color: blue;
+    text-transform: uppercase;
+    word-spacing 20px;
+    letter-spacing 15px;
+    line-height:30px;
+}
+
+small{
+     background-color: bisque;
+     letter-spacing:3px;
+     text-align: center;
+}

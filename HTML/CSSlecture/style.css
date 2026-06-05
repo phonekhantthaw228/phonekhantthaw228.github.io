@@ -1,0 +1,14 @@
+/*Universal Selector*/ 
+* {
+    color:blue
+}
+
+/* Tag Selector, Element Selector */
+h1{
+    color:blueviolet ;
+    text-align: center;
+}
+/* Attribute Selector */
+a[target="_blank"]{
+    color:aquamarine
+}
