@@ -35,3 +35,42 @@ a[target="_blank"]{
 .child>a{
     color: blanchedalmond;
 }
+
+
+
+/* Psedo Selector */
+/* a:link{
+    color: rgb(12, 9, 9);
+    text-decoration: none;
+} */
+a{
+    color: black;
+}
+/* full color link */
+a:link{
+    color: rgb(0, 171, 171);
+    text-decoration: none;
+}
+/* Full Colon Hover */
+ a:hover{
+    color: rgb(2, 229, 153);
+    font-style: italic;
+    font-size:30px;
+    letter-spacing: 30px;
+} 
+
+/* Full colon Active */
+a:active{
+    background-color: blanchedalmond;
+}
+
+/* Full Colon visited */
+ a:visited{
+    color: black;
+} 
+
+/* target one */
+:target{
+    color: rgb(77, 29, 29);
+    font-size: 30px;
+}
