@@ -1,7 +1,12 @@
 /*Universal Selector*/ 
-* {
-    color:blue
-}
+/* * {
+    color:rgb(15, 15, 133);
+    margin: 0;
+    padding: 0;
+} */
+ * {
+    color: blueviolet;
+ }
 
 /* Tag Selector, Element Selector */
 h1{
@@ -74,3 +79,75 @@ a:active{
     color: rgb(77, 29, 29);
     font-size: 30px;
 }
+/* Border */
+
+.one{
+    border: 2px solid rgb(13, 22, 1);
+    /* size style color */
+}
+
+
+.bordertwo{
+    border-top: 5px solid red;
+    /* border-bottom: size style color */
+     /* border-bottom: size style color */
+    /* border-bottom: size style color */
+}
+
+/* border width */
+
+.borderThree{
+    border-style: solid;
+    border-width : 5px 10px 15px 20px;
+    /* T /R / B / L */
+    /* border-width: 10px*/
+    /* T / R / B / L */
+
+    /* border-width: 5px 50px */
+    /* T&B / L&R */
+
+    /* border-width: 20px 13px 20px */
+    /* T/ L&R/ B */
+}
+
+/* Border Style */
+.borderFour {
+    /* border-style : solid */
+    /* border-style : dotted solid */
+    /* border-style: dotted dashed solid */
+    border-style: dotted dashed solid double;
+    border-width: 10px;
+    border-color:blue green yellowgreen black;
+}
+
+
+/* Margin */
+.marginOne{
+    border: 2px solid blueviolet;
+
+    margin-top: 50px;
+}
+
+/* Padding */
+.paddingOne{
+    border: 5px dashed black;
+
+    padding:20px;
+}
+
+/* Inlinne Layout */
+
+.inline{
+    border: 2px dotted green;
+    width: 400px;
+    display: inline-block;
+}
+
+.block{
+    border: 5px dashed yellow;
+    width: 200px;
+    
+}
+
+
+    
