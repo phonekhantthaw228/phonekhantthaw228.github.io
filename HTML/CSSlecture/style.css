@@ -1,43 +1,49 @@
-/*Universal Selector*/ 
+/*Universal Selector*/
 /* * {
     color:rgb(15, 15, 133);
     margin: 0;
     padding: 0;
 } */
- * {
+* {
     color: blueviolet;
- }
+}
 
 /* Tag Selector, Element Selector */
-h1{
-    color:blueviolet ;
+h1 {
+    color: blueviolet;
     text-align: center;
 }
+
 /* Attribute Selector */
-a[target="_blank"]{
-    color:aquamarine
+a[target="_blank"] {
+    color: aquamarine
 }
+
 /* id selector */
 /* included # in Id selector  */
-#idselector{
+#idselector {
     color: blueviolet;
-    font-size:20px ;
+    font-size: 20px;
 }
-#theone{
-    font-size:30px;
+
+#theone {
+    font-size: 30px;
 }
+
 /* class selector */
-.classselector{
+.classselector {
     font-size: 25px;
     text-transform: capitalize;
-    text-indent:50px;
+    text-indent: 50px;
 }
+
 /* Descendant Selector */
-.desc a{
+.desc a {
     color: brown;
 }
+
 /* Child Selector */
-.child>a{
+.child>a {
     color: blanchedalmond;
 }
 
@@ -48,57 +54,60 @@ a[target="_blank"]{
     color: rgb(12, 9, 9);
     text-decoration: none;
 } */
-a{
+a {
     color: black;
 }
+
 /* full color link */
-a:link{
+a:link {
     color: rgb(0, 171, 171);
     text-decoration: none;
 }
+
 /* Full Colon Hover */
- a:hover{
+a:hover {
     color: rgb(2, 229, 153);
     font-style: italic;
-    font-size:30px;
+    font-size: 30px;
     letter-spacing: 30px;
-} 
+}
 
 /* Full colon Active */
-a:active{
+a:active {
     background-color: blanchedalmond;
 }
 
 /* Full Colon visited */
- a:visited{
+a:visited {
     color: black;
-} 
+}
 
 /* target one */
-:target{
+:target {
     color: rgb(77, 29, 29);
     font-size: 30px;
 }
+
 /* Border */
 
-.one{
+.one {
     border: 2px solid rgb(13, 22, 1);
     /* size style color */
 }
 
 
-.bordertwo{
+.bordertwo {
     border-top: 5px solid red;
     /* border-bottom: size style color */
-     /* border-bottom: size style color */
+    /* border-bottom: size style color */
     /* border-bottom: size style color */
 }
 
 /* border width */
 
-.borderThree{
+.borderThree {
     border-style: solid;
-    border-width : 5px 10px 15px 20px;
+    border-width: 5px 10px 15px 20px;
     /* T /R / B / L */
     /* border-width: 10px*/
     /* T / R / B / L */
@@ -117,37 +126,231 @@ a:active{
     /* border-style: dotted dashed solid */
     border-style: dotted dashed solid double;
     border-width: 10px;
-    border-color:blue green yellowgreen black;
+    border-color: blue green yellowgreen black;
 }
 
 
 /* Margin */
-.marginOne{
+.marginOne {
     border: 2px solid blueviolet;
 
     margin-top: 50px;
 }
 
 /* Padding */
-.paddingOne{
+.paddingOne {
     border: 5px dashed black;
 
-    padding:20px;
+    padding: 20px;
 }
 
 /* Inlinne Layout */
 
-.inline{
+.inline {
     border: 2px dotted green;
     width: 400px;
     display: inline-block;
 }
 
-.block{
+.block {
     border: 5px dashed yellow;
     width: 200px;
-    
+
 }
 
 
+.float_right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.float_left {
+    width: 500px;
+    float: left;
+}
+
+/* Flex lesson */
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* top bottom */
+    background-color: rgb(152, 152, 209);
+    height: 100px;
+}
+
+/* Grid Lesson */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: 200px auto auto auto ; */
+    /* grid-template-rows: auto; */
+
+    /* one auto means one column, three auto's mean three columns */
+    margin: 40px;
+    /* gap can also be set up between each column and each row */
+    /* grid-row-gap:20px;
+    grid-column-gap:20px; */
+    /* grid-gap:15px; */
+    /* For both */
+}
+
+.grid_child,
+.grid div {
+    text-align: center;
+    font: size 25px;
+    padding: 30px;
+    color: #ffffff;
+}
+
+/* Row and Column Wrapping */
+.row_add {
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.row_add2 {
+    grid-column-start: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.column_add {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.column_add2 {
+    grid-row-start: 4;
+    grid-column: 1;
+    grid-column-end: 4;
+}
+
+/* Media Query Lessons */
+
+.media {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+}
+
+.media img {
+    width: 100%;
+}
+
+/* Laptop First */
+/* @media screen and (max-width:1024px) {
+    .media{
+        grid-template-columns:repeat(4,1fr);
+    }
     
+}
+@media screen and (max-width:768px) {
+    .media{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
+@media screen and (max-width:600px) {
+    .media{
+        grid-template-columns:repeat(2,1fr);
+    }
+} */
+
+/* Mobile First */
+@media screen and (min-width:600px) {
+    .media {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (min-width:768px) {
+    .media {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .media {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Position Lessons */
+.position_relative {
+    border: 10px solid #d81f1f;
+    width: 1025px;
+    height: 900px;
+}
+
+.position_child {
+    border: 5px solid #25474d;
+    width: 600px;
+    height: 500px;
+    position: relative;
+    /* Top Bottom Left Right */
+    top: 60px;
+    left: 70px;
+}
+
+/* .position_child{
+    border: 6px solid  #ba5353;
+    width: 500px;
+    height:700px;
+} */
+
+/* position absolute */
+.position_absolute {
+    border: 9px dashed #25474d;
+    width: 1000px;
+    height: 900px;
+    position: relative;
+}
+
+.child1 {
+    border: 2px dotted #19c7ca;
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.fixed {
+    position: fixed;
+    top: 50px;
+    right: 60px;
+}
+
+
+/* font Lesson */
+.font_online {
+
+    font-family: "Playwrite GB J", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    text-indent: 50px;
+}
+
+/* offline Font */
+@font-face {
+    font-family: Bitcount;
+    src: url("Bitcount_Single/static/BitcountSingle-Bold.ttf");
+}
+
+.offline_font {
+    font-family: Bitcount;
+    text-indent: 50px;
+    line-height:30px;
+}
+
+/* icon */
+
+/* .icon{
+    font-size:500px;
+    text-align: center;
+} */
