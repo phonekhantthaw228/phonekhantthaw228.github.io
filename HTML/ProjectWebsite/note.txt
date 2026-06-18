@@ -1,0 +1,40 @@
+                            To Consider Prior to Establishing Webpage
+
+
+
+
+
+place
+Price
+Package
+Membership
+User Information
+Date
+Transportation 
+Hotel
+
+
+
+
+Colour [Based on the Client's Preferance, Logo], Be minimalist so as not to give discomfort to the Users
+the Ratio ( 60% 30% 10%)
+60% -----> White
+30% -----> Based on Logo Theme
+
+Font Design[Based on User's Comfort on Scanning the Words]
+Icon//
+Images//
+
+
+
+                        Characteristics of Website
+        1   Header
+                Navigation Bar (Must be Unique)
+
+
+        2   Body
+            bannar section/ Hero section
+            home. About page, 
+
+
+        3   Footer (Must be Unique)
