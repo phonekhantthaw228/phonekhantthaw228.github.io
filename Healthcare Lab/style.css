@@ -1,0 +1,119 @@
+@font-face {
+    font-family:'inter';
+    src: url(font/Inter/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+
+*{
+    margin:0%;
+    padding: 0%;
+    font-family:'inter';
+}
+/* Start of the Navigation Bar */
+.navbar{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.nav_logo {
+    /* align-items: center;
+ padding-top:20px; */
+}
+.nav_items ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style:none;
+    margin: auto;
+    width:90%;
+    padding-right:80px;
+     margin-top:50px;
+    margin-bottom:50px;
+
+}
+.nav_item , .nav_logsearch a{
+    text-decoration:none;
+color: #000000;
+font-size:15px;
+font-weight :bold;
+}
+
+.nav_item:hover, .nav_logsearch a:hover{
+    color: #00AEEF;
+    transition:0.3s;
+}
+ 
+.nav_logsearch ul{
+display: flex;
+justify-content:space-between;
+    list-style: none;
+    align-items: center;
+   padding-left:50px;
+margin: auto;
+width:30%;
+ margin-top:50px;
+    margin-bottom:50px;
+
+}
+
+/* Nagivation Bar is completed */
+
+
+/* Start of the Banner */
+
+.banner{
+    margin-top:60px;
+  margin-left:20px;
+  margin-right:20px;
+   
+    background-image:url(images/banner.png);
+    background-size:cover;
+    width:1500px;
+    height:70vh;
+    border-radius:10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+   
+}
+
+.banner:hover{
+    transform: translateY(-9px);
+    transition:0.3s;
+}
+
+.banner_item{
+padding-top:100px;
+padding-left:600px;
+}
+
+.banner_item h1{
+    font-size:50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.banner_item p{
+    margin-top:20px;
+    font-size:30px;
+   margin-right:250px;
+   text-align:center;
+   
+}
+
+.banner_button{
+    display: inline-block;
+    text-decoration: none;
+    margin-top:150px;
+    font-size:30px;
+    font-weight: bold;
+    color: #000000;
+    border:2px solid #054ecd;
+    background-color: #054ecd;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+.banner_button:hover{
+transform: translateX(10px);
+transition:0.3s;
+}
+/* End of the Banner */
