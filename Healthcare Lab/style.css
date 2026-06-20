@@ -117,3 +117,143 @@ transform: translateX(10px);
 transition:0.3s;
 }
 /* End of the Banner */
+
+/* Start of the Services */
+
+.our_services{
+margin-top:100px;
+    background-color: #fafafa;
+    border:0px solid #ffffff;
+    height:1250px;
+    width:95%;
+    margin-left:40px;
+    border-radius:10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom:100px;
+}
+
+ .services_title{
+    margin-top:300px;
+    margin-left:50px;
+    font-size:40px;
+
+}
+
+.line_one{
+    width:50%;
+   margin-top:10px;
+    height:10px;
+    
+     background-color: #000000;
+     border-style: none;
+     margin-left:90px;
+}
+
+.doctor_one img{
+   
+    width:600px;
+    margin-top:30px;
+    margin-left:20px;
+    border:2px solid #fafafa;
+    border-radius:100px 0px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.doctor_one img:hover{
+transform: scale(1.1);
+transition:0.4s;
+
+}
+.doctor_one{
+    display:flex;
+    gap:30px;
+}
+
+.about_one h4{
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+.about_one{
+    font-size:20px;
+
+    /* margin-bottom:10px; */
+
+}
+.about_one a{
+    /* padding-bottom:30px; */
+    text-decoration: none;
+    color: #000000;
+    
+
+}
+
+.about_one a:hover{
+    color: #00AEEF;
+    transition: 0.3s;
+}
+/* the first part is for the The first Doctor */
+.about_twoAndthree{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:100px;
+}
+
+
+
+.about_twoAndthree img{
+    margin-top:50px;
+   margin-left:100px;
+    width: 400px;
+     border:2px solid #fafafa;
+    border-radius:400px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.about_twoAndthree img:hover{
+    transform: scale(1.1);
+    transition:0.4s;
+}
+
+
+.about_twoAndthree h4{
+    margin-top:20px;
+    font-size:30px;
+    margin-left:130px;
+
+}
+
+.about_two p,.about_three p{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size:25px;
+} 
+
+
+.about_two ul , .about_three ul{
+    margin-left:100px;
+    font-size:20px;
+    
+}
+
+.services_button{
+     display: inline-block;
+    text-decoration: none;
+    margin-left:900px;
+    margin-top:50px;
+    font-size:30px;
+    font-weight: bold;
+    color: #000000;
+    border:2px solid #02acec;
+    background-color:#02acec;
+    padding:10px 20px;
+    border-radius:100px 100px;
+}
+
+.services_button:hover{
+    transform: translateY(-10px);
+transition:0.3s;
+}
+/* End of the service */
