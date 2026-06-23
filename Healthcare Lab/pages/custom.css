@@ -1,0 +1,88 @@
+/*  For  Acknowledge letter */
+.heading{
+    margin-top:50px;
+    text-align: center;
+    font-size:50px;
+    margin-bottom:50px;
+}
+
+.passage {width:60%;
+    margin: auto;
+    text-indent:50px;
+    font-size:20px;
+}
+.heading2{
+    margin-top: 100px;
+}
+.disclaimer{
+    margin-top:90px;
+    text-align: center;
+    text-indent:100px;
+    font-size:20px;
+}
+/* End of the Acknowledgement Page */
+
+
+/* Start of the search Engine */
+
+.search_engine{
+    text-align: center;
+    margin-top:50px;
+}
+
+.search_engine h2{
+    font-size:50px;
+}
+.search_engine_bar{
+    margin-top: 100px;
+    margin-left:450px;
+
+}
+.search_engine_bar input{
+    width:600px;
+    height:40px;
+    border-radius: 20px 20px;
+}
+.search_engine_bar input:focus{
+    border:2px solid #02acec;
+}
+
+
+/*  End of the Search Bar */
+
+/* Start of the Library */
+.the_library{
+    margin-top:100px;
+}
+.the_library {
+    
+    color: #000000;
+}
+.grid_of_library{
+     border:1px solid #fafafa;
+    width:1000px;
+    margin-left:200px;
+    height:900px;
+    background-color: #fafafa;
+   border-radius:10px;
+   padding:50px;
+}
+
+.grid_of_library p{
+    margin-top: 50px;
+    text-indent:100px;
+    font-size:20px;
+}
+
+.escape{
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    margin-top:100px;
+    margin-left:50px;
+}
+.escape:hover{
+    color: #02acec;
+    transition:0.3s;
+}
+

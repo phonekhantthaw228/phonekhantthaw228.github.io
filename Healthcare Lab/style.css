@@ -22,6 +22,7 @@
 .nav_items ul{
     display: flex;
     justify-content: space-between;
+    gap:20px;
     align-items: center;
     list-style:none;
     margin: auto;
@@ -63,7 +64,7 @@ width:30%;
 
 .banner{
     margin-top:60px;
-  margin-left:20px;
+  margin-left:10px;
   margin-right:20px;
    
     background-image:url(images/banner.png);
@@ -75,10 +76,10 @@ width:30%;
    
 }
 
-.banner:hover{
+/* .banner:hover{
     transform: translateY(-9px);
     transition:0.3s;
-}
+} */
 
 .banner_item{
 padding-top:100px;
@@ -129,7 +130,7 @@ margin-top:100px;
     margin-left:40px;
     border-radius:10px;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom:100px;
+    margin-bottom:300px;
 }
 
  .services_title{
@@ -257,3 +258,266 @@ transition:0.4s;
 transition:0.3s;
 }
 /* End of the service */
+
+/* start of the search bar */
+
+
+.search_section h2{
+ 
+    text-align: center;
+    font-size:50px;
+}
+
+.search_section p{
+    margin-top:20px;
+    text-align: center;
+}
+.search_bar{
+    text-align: center;
+   margin-top:30px;
+}
+/* .search_bar input{
+    width:400px;
+    height:40px;
+    font-size:20px;
+    border: 1px solid #000000;
+    border-radius: 20px 20px;
+} */
+
+/* for the Search Bar */
+input[type="text"]{
+    width:400px;
+    height:40px;
+    outline:none;
+    border-radius:0px 20px 20px 0px;
+    font-size:20px;
+}
+input[type="text"]:focus{
+border:1px dashed #000000;
+}
+
+/* Grid for the icons */
+
+
+.the_grids{
+    width:60%;
+    margin: auto;
+    margin-top:70px;
+}
+.grid_one{
+  padding: 20px;
+    text-align: center;
+    border:1px solid #fafafa;
+    width: 200px;
+    height:200px;
+    background-color: #fafafa;
+   border-radius:10px;
+   
+}
+
+.grid_one p{
+    font-size:20px;
+}
+
+
+
+.inside_grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:50px;
+    margin-bottom: 300px;
+}
+
+.the_grids a{
+    text-decoration:none;
+    color: #000000;
+}
+.the_grids a:hover{
+    /* /* transform:translateY(-10px); */
+    transition:0.3s; 
+    filter: brightness(0.8);
+
+}
+
+/* End of the Library */
+
+/* The section of Registeration for the Newsletter */
+
+.newsletter_section{
+    background-color:#02acec;
+    width:100%;
+    height:900px;
+    /* margin-bottom:300px; */
+}
+
+.newsletter{
+    
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    width:80%;
+    margin: auto;
+}
+ .for_image img{
+        margin-top: 100px;
+
+   
+
+} 
+.newsletter_content{
+    margin-top: 150px;
+}
+.newsletter_content h3{
+    font-size:70px;
+}
+.newsletter_content p{
+    margin-top:20px;
+    font-size:30px;
+}
+
+.newsletter_section a{
+    text-decoration: none;
+    color: #000000;
+    display:inline-block;
+    margin-top:90px;
+    margin-left:850px;
+
+    font-size:30px;
+    font-weight:bold;
+    border:0px ;
+    background-color: #054ecd;
+    padding:20px 30px;
+    border-radius:10px;
+}
+
+.newsletter_section a:hover{
+    color: #054ecd;
+    background-color: #ffffff;
+    transition:0.3s;
+
+}
+
+/* End of the Newsletter sEction */
+
+/* Start of the Blog Section */
+.blog_section{
+
+   
+    background-image:url(images/blog_background.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    margin-bottom:60px;
+   
+}
+
+.blog_item{
+padding-top:100px;
+padding-left:100px;
+}
+.blog_item h1{
+    font-size:50px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.blog_item p{
+    margin-top:30px;
+    color: #ffffff;
+    font-size:30px;
+    text-indent:60px;
+}
+.blog_button{
+
+     display: inline-block;
+    text-decoration: none;
+    margin-top:300px;
+    margin-left:400px;
+    font-size:30px;
+    font-weight: bold;
+     color: #000000;
+    /* border:2px solid #054ecd;  */
+    background-color:#02acec;
+    padding:10px 20px;
+    border-radius:10px;
+}
+
+.blog_button:hover{
+    background-color:#ffffff;
+    color: #02acec;
+    transition:0.3s;
+    transform: translateX(5px);
+}
+
+/* end of the Blog Section */
+
+/* Start of the Footer */
+
+/* The above */
+.footer_section{
+    
+    background-color: #f9f9f9;
+}
+.footer_content{
+    padding-top:50px;
+    margin-top: 200px;
+    display:grid;
+    grid-template-columns:repeat(4 , auto);
+
+}
+.footer_nav a{
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    padding-top:10px ;
+}
+
+.footer_contact{
+    margin-top: 20px;
+    display: flex;
+  flex-direction: row;
+  margin-bottom:50px;
+    
+}
+
+.footer_nav h3{
+    color: #c7c7c7;
+    font-size:15px;
+}
+.footer_nav a:hover{
+    color: #00AEEF;
+    transition:0.3s;
+}
+/* Footer contact insides */
+.contacts{
+    margin-top:-50px;
+    margin-left:750px;
+}
+.contacts li{
+    list-style: none;
+    padding-top:10px;
+    
+}
+.footer_social {
+    margin-left:100px;
+    
+}
+.footer_social a{
+    color: #000000;
+}
+
+/* End of the footer contact insides */
+
+/* The copyright bar */
+
+.footer_line{
+
+  margin: auto;
+    width: 900px;
+    height:5px;
+    background-color: #000000;
+}
+
+.footer_copyright{
+    margin-top:20px;
+    text-align: center;
+    margin-bottom:10px;
+}
