@@ -6,6 +6,77 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1> String</h1>
+    <script>
+
+        // string concatenation
+
+        let firstName = "Amadeus";
+        let lastName = "Angus Burkman";
+
+        let fullName1 = firstName+ ' '+ lastName;
+// let biography = firstName + ' ' + lastName + "I am 18 years old";
+
+let biography = `${firstName} ${lastName} . I am 18 years old`;
+ let fullName = ` ${firstName} ${lastName} is my Name . You can call me ${lastName} for short`;
+
+ document.write(fullName);
+        document.write(biography);
+
+
+        let theName = ` <h1> My Name is ${firstName}. </h1>`;
+        document.write(theName);
+
+        let fullName2 = firstName.concat('+', lastName);
+        document.write(fullName1);
+        document.write(`<br>`)
+        document.write(fullName2);
+document.write('<br>')
+        document.write(fullName1.toUpperCase());
+        document.write('<br>')
+
+        document.write(fullName2.toLowerCase());
+
+
+        document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+let name = 'Her name is Azelia Sandy. She loves me ';
+document.write(name.substr(11,27));
+document.write('<br>')
+
+
+let occupation = " Neurosurgeon                  in              British Columbia            Canada";
+
+document.write(occupation.trim());
+
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+let sir= " Doctor Phone Khant Thaw ";
+console.log ( sir.search('Phone Khant'));
+console.log ( sir.indexOf( 'Doctor'));
+
+
+document.write('<br>')
+document.write('<br>')
+document.write('<br>')
+ 
+let rep = " Dr Angus Mingati Burkman ";
+console.log ( rep.replace (" Dr ", " The great Doctor "));
+
+let thenum= '1,22,33,453,345345,123223,11,11,22';
+console.log ( thenum.replace(/\,/g,'+'));
+
+document.write(" I'm Phone Khant Thaw" );
+document.write('<br>')
+
+document.write('I\'m Phone Khant Thaw')
+document.write('<br>')
+document.write(" I'm PKT, 5' 9\" ");
+document.write(` I'm Pk.t , 5' 9" and I'm a Developer `);
+    </script>
 </body>
 </html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Array</h1>
+    <script>
+        //    array
+
+let studentList=['Ba Mg', 'Pkt', 'koko', 'Hla Hla', 'Hsu Hsu'];
+console.log(studentList);
+console.log(studentList.length);
+console.log(studentList[4]);
+
+//array.push ();
+studentList.push('Sandy');
+console.log(studentList);
+
+
+
+// array.pop(); delete from the last index
+studentList.pop();
+
+console.log(studentList);
+
+// array.unshift();
+
+studentList.unshift('Angus Mingati');
+console.log(studentList);
+
+// array.shift();       delete the first index 
+
+studentList.shift();
+console.log(studentList);
+
+
+// array. sort();
+
+studentList.sort();
+console.log(studentList);
+
+
+let studentList2= [ 'Angus', 'Azelia' , 'Lotus', 'Phone Khant', 'Hsu Sandy Zaw', 'Ba Mg'];
+
+// array.reverse();
+studentList2.sort().reverse();
+
+
+console.log(studentList2);
+
+
+
+// array.toString();
+
+console.log(studentList2.toString());
+
+
+// string to array
+
+let studentList3 = 'My , name , is , I , love , her , very , much , that , i , could , not , describe, enough';
+
+studentListArray = studentList3.split(',');
+console.log(studentListArray);
+let array1=[1,2,3,4];
+let array2=[5,6,7,8];
+
+let array3=[9,10,11,12];
+
+let result= array1.concat(array2,array3);
+console.log(result);
+
+let result2 = [...array1, ...array2 , ...array3];
+console.log(result2);
+
+
+
+</script>
+</body>
+</html>
