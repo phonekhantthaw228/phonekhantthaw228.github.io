@@ -104,3 +104,129 @@
     height:5px;
     background-color: #000000;
 }
+
+/*   the start of Newsletter */
+.newsletter_section{
+
+   
+    background-image:url(../images/newsletter.jpg);
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    margin-bottom:60px;
+   
+}
+
+.newsletter_item{
+padding-top:100px;
+padding-left:100px;
+}
+.newsletter_item h1{
+    font-size:80px;
+    color: #ffffff;
+    font-weight: bold;
+}
+.newsletter_item p{
+    margin-top:30px;
+    margin-right:800px;
+    color: #ffffff;
+    font-size:30px;
+    text-indent:60px;
+}
+.newsletter_bar{
+    margin-top: 50px;
+}
+.newsletter_bar input{
+    width:600px;
+    height:60px;
+    border-radius: 30px 30px;
+}
+.newsletter_bar input:focus{
+    border:2px solid #02acec;
+}
+
+
+.bar{
+ display:grid;
+ grid-template-columns:repeat(2,1fr);
+  
+}
+
+
+   
+
+.newsletter_button a{
+
+     display: inline-block;
+    text-decoration: none;
+     margin-top:53px;
+    margin-left:-348px;
+    font-size:30px;
+    font-weight: bold;
+     color: #000000;
+    /* border:2px solid #054ecd;  */
+    background-color:#02acec;
+    padding:10px 20px;
+    border-radius:30px  30px;
+}
+
+.newsletter_button a:hover{
+    background-color:#ffffff;
+    color: #02acec;
+    transition:0.3s;
+    transform: translateX(5px);
+}
+
+/* end of newsletter Section */
+
+
+/* Start of the Articles section */
+
+.articles h2{
+    font-size:40px;
+}
+.articles h4{
+    font-size:30px;
+}
+.articles li{
+    font-size:20px;
+    padding-top:20px ;
+    padding-bottom:20px;
+}
+.articles{
+    margin-top:100px;
+     border:1px solid #fafafa;
+    width:1000px;
+    margin-left:200px;
+    height:2000px;
+    background-color: #fafafa;
+   border-radius:10px;
+   padding:50px;
+   margin-bottom: 50px;
+}
+
+.articles p{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top: 10px;
+    text-indent:100px;
+    font-size:20px;
+}
+.share{
+    display:flex;
+    gap:150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+.share a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.share a:hover{
+     color: #02acec;
+    transition:0.3s;
+}

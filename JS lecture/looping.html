@@ -15,12 +15,12 @@
     // code     
     // }
 
-    document.write(" <h2> Hello world </h2>");
+//     document.write(" <h2> Hello world </h2>");
 
-    for(let i = 0 ; i < 50 ; i++){
-        document.write(" <h2> Hello world " + (i +1 ) + " </h2>");
-// document.write(`<h2> Hello world </h2> ${i+1}`)
-    }
+//     for(let i = 0 ; i < 50 ; i++){
+//         document.write(" <h2> Hello world " + (i +1 ) + " </h2>");
+// // document.write(`<h2> Hello world </h2> ${i+1}`)
+//     }
 
     let laptopList = [ 'Acer', 'MacBook pro', 'Hp', 'Msi', 'Microsoft' ]
 //  document.write( " <h3> My Laptop is " + laptopList[0] + "</h3>.");
@@ -29,8 +29,23 @@ document.write(`<h1> My laptop is ${laptopList[1]}</h1>.`);
 
 for ( let i = 0 ; i < laptopList.length ; i++){
     document.write(`<h1> ${i + 1}. My laptop is ${laptopList[i]}</h1>.`);
-
 }
+
+
+for(let i = 0 ; i < 3 ; i++){
+    // k = 3 3 <= 2
+    
+    for  (let k = 0 ; k <= i ; k++){
+        document.write('*');
+
+    }
+    document.write( ' <br> ');
+}
+
+
+// while loop   loop as long as the condition is true
+
+
 
     </script>
 </body>
