@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Function</h1>
+
+
+
+    <script>
+        // named Function
+        function sayHi(){
+            document.write("Hello world");
+        }
+sayHi();
+
+// function with parameters / arguments
+
+function sum(num1,num2){
+    let result = num1 + num2 ;
+    document.write ( `<br> The sum of ${num1} and ${num2} is ${result}`);
+
+}
+
+sum(20,99);
+
+sum(234,234);
+sum(234,2345);
+
+
+// function with default parameters
+
+function mult(num1=10, num2=123){
+    let result = num1 * num2;
+    document.write ( `<br> The multiplication of ${num1} and ${num2} is ${result}`);
+
+}
+
+mult();
+mult(12);
+mult(123,234234);
+
+
+
+// function with return
+
+function sub( num1 , num2){
+    let result = num1 - num2;
+    return result;
+}
+
+let data = sub(100,20);
+
+    document.write ( `<br> The result is ${data}`);
+
+
+    </script>
+</body>
+</html>
