@@ -12,6 +12,7 @@
 <p class="myClass">My dom lesson3</p>
 <p class="myClass">My dom lesson4</p>
 <p class="myClass">My dom lesson5</p>
+<div class="myClass"> Hello my lady , this is the palce where you can lay all your love</div>
     <script>
         // id selector
         let myId = document.getElementById("myId");
@@ -28,7 +29,7 @@
 
         let myClass = document.getElementsByClassName("myClass");
 
-        console.log(myClass[2].innerText);
+        console.log(myClass[1].innerText);
 
         // query selector
         let myQueryId = document.querySelector("#myId");
@@ -37,6 +38,49 @@
 
         let myQueryClass = document.querySelector (".myClass");
         console.log(myQueryClass.innerText);
+
+
+
+        // tag selector
+        let myTag = document.getElementsByTagName('div');
+        console.log(myTag[0].innerText);
+
+        // querySelectorAll 
+         let myQueryAll = document.querySelectorAll (".myClass");
+         console.log(myQueryAll[5].innerText);
+
     </script>
+
+
+
+<!-- <h1 id="the_one">
+    Hello This is the place where <i>The particular place</i> you can commit yourself.
+</h1>
+
+<p class="twos">Hey Buddy</p>
+
+<script>
+    let theID = document.getElementById('the_one');
+    console.log(theID.innerHTML);
+
+    document.write(theID.innerHTML);
+    document.write("<br>");
+    document.write(theID.innerText);
+
+
+
+
+
+    // query selector 
+    let theQuery = document.querySelector("#the_one");
+    console.log(theQuery.innerText);
+
+   let  theTwo= document.querySelector (".twos");
+    console.log(theTwo.innerText);
+
+</script> -->
+
+
+
 </body>
 </html>

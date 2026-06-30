@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Homework of Guessing Game</h1>
+    <script>
+        let attempt = 1 ; 
+        let number = parseInt(prompt("Trust your intuition . Guess the number."))
+        while(number != 25 ) {
+            if ( number < 25 ){
+                number = parseInt(prompt("Your Number is too low"));
+            }else if ( number > 25){
+                number = parseInt(prompt("Your number is Too High."))
+            }
+            
+            attempt ++;
+
+        }
+        if ( attempt == 1 ){
+             document.write(`DAZZLING! YOUR INTUITION IS PERFECT!. <br>
+             The answer is Absolutely ${number}. <br>
+             You did it at the very first attempt`);
+
+        } else if (attempt != 1 ){
+            document.write(`After the ${attempt} attempts, <br>
+            you have come to the   CORRECT  answer 25.`);
+        }
+    </script>
+</body>
+</html>
